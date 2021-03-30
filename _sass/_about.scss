@@ -1,0 +1,20 @@
+.about {
+
+}
+
+.about__contact {
+	@include helper-text();
+}
+
+.about__selected-works {
+	@include helper-text();
+	h2 {
+		font-weight: normal;
+		font-style: italic;
+	}
+	ul {
+		margin-top: 0;
+	}
+}
+
+

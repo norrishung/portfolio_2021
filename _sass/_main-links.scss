@@ -1,0 +1,17 @@
+.main-links {
+	@include helper-text();
+	a {
+		display: block;
+		color: $color-grey;
+		text-decoration: none;
+
+		&:hover{
+			color: $color-black;
+		}
+	}
+
+	.link--selected {
+		color: $color-black;
+		font-weight: bold;
+	}
+}

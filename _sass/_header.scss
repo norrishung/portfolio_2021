@@ -1,0 +1,10 @@
+.main-header {
+	@include main-container();
+	margin-top: $s96;
+	margin-bottom: $s96;
+}
+
+.main-header__subtitle {
+	@include helper-text();
+	font-style: italic;
+}

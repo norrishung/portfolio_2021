@@ -2,6 +2,7 @@
 ---
 
 // Core Styles
+@import 'fonts.scss';
 @import 'variables';
 @import 'typography';
 @import 'spacing';
@@ -13,6 +14,7 @@
 // Component Specific Styles
 @import 'header';
 @import 'footer';
+@import 'main-links';
 
 // Layout Specific Styles
 @import 'about';

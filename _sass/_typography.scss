@@ -1,0 +1,50 @@
+@mixin body-text() {
+  font-family: $font-text;
+  font-size: $s24;
+  line-height: $s40;
+  letter-spacing: -.01em;
+}
+
+@mixin helper-text() {
+  font-family: $font-text;
+  font-size: $s24;
+  line-height: $s40;
+  letter-spacing: -.01em;
+  color: $color-grey;
+}
+
+@mixin header() {
+  font-family: $font-text;
+  font-size: $s24;
+  line-height: $s40; 
+  font-weight: bold;
+}
+
+@mixin large-header() {
+  font-family: $font-display;
+  font-size: $s48;
+  line-height: $s72; 
+  font-weight: bold;
+}
+
+body {
+  @include body-text();
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include header();
+}
+
+p {
+  margin-bottom: $s24;
+}
+
+
+ul, ol {
+  margin-top: $s24;
+  margin-bottom: $s24;
+}
+
+.list--no-style {
+  list-style: none;
+}

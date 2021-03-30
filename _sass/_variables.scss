@@ -1,0 +1,38 @@
+// Colors
+$color-black: #111111;
+$color-grey: #717171;
+$color-light-grey: #E5E5E5;
+$color-white: #FFFFFF;
+$color-teal: #1C875A;
+
+
+// Spacing
+@function rem($pixel-value) {
+	$rem-base: 16;
+	@return $pixel-value / $rem-base + rem;
+}
+
+$s4: rem(4);
+$s8: rem(8);
+$s12: rem(12);
+$s16: rem(16);
+$s20: rem(20);
+$s24: rem(24);
+$s32: rem(32);
+$s40: rem(40);
+$s52: rem(52);
+$s72: rem(72);
+$s84: rem(84);
+$s96: rem(96);
+$s136: rem(136);
+
+
+// Typography
+$font-text: "Roslindale";
+$font-display: "Roslindale-Deck-Narrow";
+
+
+// Media Queries
+$tablet: 760px;
+$desktop--small: 960px;
+$desktop--large: 1200px;

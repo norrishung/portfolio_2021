@@ -1,0 +1,5 @@
+.main-footer {
+	@include main-container();
+	margin-top: $s96;
+	margin-bottom: $s96;
+}
