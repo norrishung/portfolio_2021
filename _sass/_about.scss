@@ -4,6 +4,9 @@
 
 .about__contact {
 	@include helper-text();
+	a {
+		@include subtle-link();
+	}
 }
 
 .about__selected-works {
@@ -19,10 +22,14 @@
 		margin-top: 0;
 		margin-bottom: $s40;
 	}
+	a {
+		@include subtle-link();
+	}
 }
 
 .about__photo {
 	@include background-image-retina('../images/norrishung', 'png', 160px, 160px);
+	border-radius: $border-radius-picture;
 	margin-bottom: $s40;
 }
 

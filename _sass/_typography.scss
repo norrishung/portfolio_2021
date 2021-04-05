@@ -4,7 +4,7 @@
   font-size: $s20;
   line-height: $s32;
 
-  @include media( $tablet) {
+  @include media($tablet) {
     font-size: $s24;
     line-height: $s40;
   }
@@ -20,6 +20,15 @@
   @include media( $tablet) {
     font-size: $s24;
     line-height: $s40;
+  }
+}
+
+@mixin subtle-link() {
+  color: $color-grey;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: $color-light-grey;
   }
 }
 
@@ -81,11 +90,7 @@ a {
 }
 
 .link--subtle {
-  color: $color-grey;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
+  @include subtle-link();
 }
 
 .quote {
@@ -100,6 +105,14 @@ a {
   blockquote {
     @include large-header();
     color: $color-grey;
+    p {
+      &:before {
+        content: '\201C';
+      }
+      &:after {
+        content: '\201D';
+      }
+    }
   }
 
   .text--detail {

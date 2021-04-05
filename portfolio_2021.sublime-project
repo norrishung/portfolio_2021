@@ -1,6 +1,7 @@
 {
 	"settings": {
-	    "expand_tabs_on_save": true
-	    
+		"tab_size": 2,
+		"translate_tabs_to_spaces": true,
+		"detect_indentation": false
 	}
 }

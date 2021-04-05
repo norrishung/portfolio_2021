@@ -40,9 +40,10 @@ $border-radius-picture: $s72;
 $border-radius-picture-mobile: $s40;
 
 // Media Queries
-$tablet: 38rem;
-$desktop--small: 62rem;
-$desktop--large: 75rem;
+$mobile: 480px;
+$tablet: 768px;
+$desktop--small: 1000px;
+$desktop--large: 1200px;
 
 // Site
 $site-max-width: 1600px;
