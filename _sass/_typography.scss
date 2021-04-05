@@ -1,30 +1,61 @@
 @mixin body-text() {
   font-family: $font-text;
-  font-size: $s24;
-  line-height: $s40;
   letter-spacing: -.01em;
+  font-size: $s20;
+  line-height: $s32;
+
+  @include media( $tablet) {
+    font-size: $s24;
+    line-height: $s40;
+  }
 }
 
 @mixin helper-text() {
   font-family: $font-text;
-  font-size: $s24;
-  line-height: $s40;
   letter-spacing: -.01em;
+  font-size: $s20;
+  line-height: $s32;
   color: $color-grey;
+
+  @include media( $tablet) {
+    font-size: $s24;
+    line-height: $s40;
+  }
 }
 
 @mixin header() {
   font-family: $font-text;
-  font-size: $s24;
-  line-height: $s40; 
   font-weight: bold;
+  font-size: $s20;
+  line-height: $s32;
+
+  @include media( $tablet) {
+    font-size: $s24;
+    line-height: $s40;
+  }
 }
 
 @mixin large-header() {
   font-family: $font-display;
-  font-size: $s48;
-  line-height: $s72; 
   font-weight: bold;
+  font-size: $s32;
+  line-height: $s52;
+
+  @include media($tablet) {
+    font-size: $s40;
+    line-height: $s64; 
+  }
+}
+
+@mixin largest-header() {
+  font-family: $font-display;
+  font-weight: bold;
+  font-size: $s40;
+  line-height: $s64; 
+  @include media($tablet) {
+    font-size: $s72;
+    line-height: $s96;
+  }
 }
 
 body {
@@ -36,15 +67,96 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-bottom: $s24;
+  margin-bottom: $s32;
+  @include media($tablet) {
+    margin-bottom: $s40;
+  }
+}
+
+a {
+  color: $color-black;
+  @media (prefers-color-scheme: dark) {
+    color: $color-light-grey;
+  }
+}
+
+.link--subtle {
+  color: $color-grey;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.quote {
+  margin-top: $s72;
+  margin-bottom: $s72;
+
+  @include media($tablet) {
+    margin-top: $s96;
+    margin-bottom: $s96;
+  }
+
+  blockquote {
+    @include large-header();
+    color: $color-grey;
+  }
+
+  .text--detail {
+    @include helper-text();
+    font-style: italic;
+    margin-bottom: 0;
+  }
 }
 
 
 ul, ol {
-  margin-top: $s24;
-  margin-bottom: $s24;
+  margin-top: $s40;
+  margin-bottom: $s40;
+}
+
+ol {
+    list-style: none;
+    counter-reset: simple-number;
+    li {
+        counter-increment: simple-number;
+        text-indent: -.7em;
+        margin-left: 1.4em;
+        margin-bottom: 1em;
+        
+        &:before {
+            content: counter(simple-number);
+            display: inline-block;
+            width: .7em;
+            font-weight: bold;
+        }
+    }
+}
+
+ul {
+    li {
+        text-indent: -.7em;
+        margin-left: 1.4em;
+        margin-bottom: 1em;
+
+        list-style: none;
+        &:before {
+            content: '—';
+            display: inline-block;
+            width: .7em;
+            font-weight: 400;
+        }
+    }
 }
 
 .list--no-style {
   list-style: none;
+  li {
+    text-indent: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    &:before {
+      display: none;
+    }
+  }
 }

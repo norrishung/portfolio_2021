@@ -1,0 +1,20 @@
+media_presets:
+  wide_desktop: 'min-width: 1801px'
+  desktop: 'max-width: 1800px'
+  wide_tablet: 'max-width: 1200px'
+  tablet: 'max-width: 900px'
+  mobile: 'max-width: 600px'
+
+markup_presets:
+  default:
+    markup: auto
+    formats: [original]
+    widths: [200,400,800,1600,2400]
+    sizes:
+      wide_desktop: 1600px 
+      desktop: 1600px
+      wide_tablet: 1600px
+      tablet: 900px
+      mobile: 600px
+    base_width: 1200
+    pixel_ratios: [1,2,3]

@@ -1,0 +1,32 @@
+.thought {
+  margin-bottom: $s96;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  text-decoration: none; 
+  &:hover {
+    .thought__link:after {
+      padding-left: 1.5em;
+    }
+  }
+}
+
+.thought__date {
+  @include helper-text();
+}
+
+.thought__title {
+  @include header();
+  margin-bottom: $s24;
+  text-decoration: underline
+}
+
+.thought__link {
+  text-decoration: none;
+  &:after {
+    display: inline-block;
+    transition: all .3s ease-out;
+    padding-left: .5em;
+    content: ' →';
+  }
+}

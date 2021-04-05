@@ -1,7 +1,16 @@
 .main-header {
 	@include main-container();
-	margin-top: $s96;
-	margin-bottom: $s96;
+	margin-top: $s40;
+	margin-bottom: $s72;
+
+	@include media($tablet) {
+		margin-top: $s96;
+		margin-bottom: $s136;		
+	}
+}
+
+.main-header__title a {
+	text-decoration: none;
 }
 
 .main-header__subtitle {

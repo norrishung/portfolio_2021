@@ -1,0 +1,59 @@
+.role {
+  padding-bottom: $s72;
+  margin-bottom: $s72;
+  @include media($tablet) {
+    padding-bottom: $s96;
+    margin-bottom: $s96;
+  }
+
+  text-decoration: none;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    .role__link:after {
+      padding-left: 1em;
+    }
+  }
+
+  @include border-bottom();
+}
+
+.role__logo {
+  margin-bottom: $s24;
+  @include media($tablet) {
+    margin-bottom: $s32;
+  }
+  img {
+    max-width: 12rem;
+    max-height: 8rem;
+  }
+}
+
+.role__info {
+  margin-bottom: $s24;
+  @include media($tablet) {
+    margin-bottom: $s32;
+  }
+  p {
+    @include helper-text();
+    margin-bottom: 0;
+  }
+}
+
+.role__summary {
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.role__link {
+  font-style: italic;
+  &:after {
+    transition: all .3s ease-out;
+    padding-left: 0;
+    content: ' →';
+  }
+}

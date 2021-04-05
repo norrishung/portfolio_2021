@@ -2,24 +2,25 @@
 ---
 
 // Core Styles
-@import 'fonts.scss';
+@import 'fonts';
 @import 'variables';
-@import 'typography';
 @import 'spacing';
 @import 'grid';
 @import 'base';
 @import 'layout';
+@import 'typography';
 
 
 // Component Specific Styles
 @import 'header';
 @import 'footer';
 @import 'main-links';
+@import 'photo';
 
 // Layout Specific Styles
 @import 'about';
 @import 'roles';
 @import 'projects';
 @import 'experiments';
-@import 'blog';
+@import 'thoughts';
 @import 'post';

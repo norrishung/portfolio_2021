@@ -7,6 +7,9 @@
 }
 
 .about__selected-works {
+	@include media($tablet) {
+		margin-bottom: 0;
+	}
 	@include helper-text();
 	h2 {
 		font-weight: normal;
@@ -14,7 +17,17 @@
 	}
 	ul {
 		margin-top: 0;
+		margin-bottom: $s40;
 	}
 }
 
+.about__photo {
+	@include background-image-retina('../images/norrishung', 'png', 160px, 160px);
+	margin-bottom: $s40;
+}
 
+.about__bio {
+	@include media($desktop--small) {
+		margin-bottom: 0;
+	}
+}

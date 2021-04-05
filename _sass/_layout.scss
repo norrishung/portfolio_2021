@@ -16,14 +16,62 @@
     }
 }
 
+@mixin round-photo() {
+  border-radius: $border-radius-picture-mobile;
+  @include media($tablet) {
+    border-radius: $border-radius-picture;
+  }
+}
+
+
+@mixin background-image-retina($file, $type, $width, $height) {
+  &:before {
+    display: block;
+    content: ' ';
+  }
+
+  width: $width;
+  height: $height;
+
+  background-image: url($file + '.' + $type);
+  background-repeat: no-repeat;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 144dpi) {
+    & {
+      background-image: url($file + '@2x.' + $type);
+      background-size: $width $height;
+    }
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 216dpi) {
+    & {
+      background-image: url($file + '@3x.' + $type);
+      background-size: $width $height;
+    }
+  }
+}
+
+@mixin border-bottom() {
+  border-bottom: 2px solid $color-light-grey;
+  @media (prefers-color-scheme: dark) {
+    border-bottom: 2px solid $color-dark-grey;
+  }
+}
+
 @mixin main-container() {
-    max-width: 1400px;
+    max-width: $site-max-width;
     margin: 0 auto;
     padding: 0 $s24;
-    @include media($desktop--small) {
+    @include media($tablet) {
         padding: {
-            left: $s40;
-            right: $s40;
+            left: $s52;
+            right: $s52;
+        }
+    }
+    @include media($desktop--large) {
+        padding: {
+            left: $s96;
+            right: $s96;
         }
     }
 }

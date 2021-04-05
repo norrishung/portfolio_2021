@@ -1,5 +1,16 @@
 .main-footer {
 	@include main-container();
-	margin-top: $s96;
-	margin-bottom: $s96;
+	margin-top: $s72;
+	margin-bottom: $s72;
+
+	@include media($tablet) {
+		margin-top: $s96;
+		margin-bottom: $s96;
+	}
+
+}
+
+.main-footer__subtitle {
+	@include helper-text();
+	font-style: italic;
 }

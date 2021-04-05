@@ -1,17 +1,43 @@
 .main-links {
+	margin-left: 1.5em;
+	@include media($tablet) {
+		margin-left: 0;
+	}
+
 	@include helper-text();
 	a {
+		transition: color .3s ease-out;
 		display: block;
 		color: $color-grey;
 		text-decoration: none;
 
+		&:before {
+			transition: opacity .3s ease-out;
+			margin-left: -1.5em;
+			display: inline-block;
+			width: 1.5em;
+			content: '—';
+			opacity: 0;
+		}
+
 		&:hover{
-			color: $color-black;
+			@media (prefers-color-scheme: dark) {
+			    color: $color-light-grey;
+			}
+			&:before {
+				opacity: 1;
+			}
 		}
 	}
 
 	.link--selected {
 		color: $color-black;
+		@media (prefers-color-scheme: dark) {
+			color: $color-light-grey;
+		}
 		font-weight: bold;
+		&:before {
+			opacity: 1;
+		}
 	}
 }

@@ -1,6 +1,7 @@
 // Colors
 $color-black: #111111;
-$color-grey: #717171;
+$color-dark-grey: #333333;
+$color-grey: #757575;
 $color-light-grey: #E5E5E5;
 $color-white: #FFFFFF;
 $color-teal: #1C875A;
@@ -8,8 +9,8 @@ $color-teal: #1C875A;
 
 // Spacing
 @function rem($pixel-value) {
-	$rem-base: 16;
-	@return $pixel-value / $rem-base + rem;
+  $rem-base: 16;
+  @return $pixel-value / $rem-base + rem;
 }
 
 $s4: rem(4);
@@ -20,7 +21,9 @@ $s20: rem(20);
 $s24: rem(24);
 $s32: rem(32);
 $s40: rem(40);
+$s48: rem(48);
 $s52: rem(52);
+$s64: rem(64);
 $s72: rem(72);
 $s84: rem(84);
 $s96: rem(96);
@@ -32,7 +35,14 @@ $font-text: "Roslindale";
 $font-display: "Roslindale-Deck-Narrow";
 
 
+// Images
+$border-radius-picture: $s72;
+$border-radius-picture-mobile: $s40;
+
 // Media Queries
-$tablet: 760px;
-$desktop--small: 960px;
-$desktop--large: 1200px;
+$tablet: 38rem;
+$desktop--small: 62rem;
+$desktop--large: 75rem;
+
+// Site
+$site-max-width: 1600px;

@@ -1,8 +1,10 @@
 <div class="main-links">
-	<a href="#">About</a>
-	<a href="#">Roles</a>
-	<a href="#">Projects</a>
-	<a href="#">Experiments</a>
-	<a href="#">Blog</a>
+	{% for item in site.data.navigation %}
+	{% if item.link == "/" %}
+		<a href="{{ item.link }}" {% if page.url == "/" %} class="link--selected"{% endif %}>{{ item.name }}</a>
+	{% else %}
+		<a href="{{ item.link }}"{% if page.url contains item.link %} class="link--selected"{% endif %}>{{ item.name }}</a>
+	{% endif %}
+	{% endfor %}
 </div>
 
