@@ -19,7 +19,7 @@ permalink: /roles
       <p>{{ post.dates }}</p>
     </div>
     <div class="role__summary col-md-6">
-      <p>{{ post.description }} <span class="role__link"></span></p>
+      <p>{{ post.description }} <span class="link--arrow"></span></p>
     </div>
   </a>
   {% endfor %}

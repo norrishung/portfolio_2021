@@ -14,8 +14,8 @@
   }
 
   &:hover {
-    .project__link:after {
-      padding-left: 1.5em;
+    .project__title {
+      color: $color-blue;
     }
   }
 
@@ -23,19 +23,11 @@
 }
 
 .project__title {
+  transition: color .2s ease-out;
   @include header();
   margin-bottom: $s24;
   text-decoration: underline;
-}
-
-.project__link {
-  text-decoration: none;
-  &:after {
-    display: inline-block;
-    transition: all .3s ease-out;
-    padding-left: .5em;
-    content: ' →';
-  }
+  text-decoration-color: $color-blue;
 }
 
 .project__details {
@@ -47,9 +39,14 @@
 
 .project__thumbnail {
   @include clearfix();
-  margin-bottom: $s40;
   img {
     @include round-photo();
     max-width: 100%;
+  }
+  
+  margin-bottom: $s40;
+
+  @include media($tablet) {
+    margin-bottom: 0;
   }
 }

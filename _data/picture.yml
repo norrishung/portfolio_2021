@@ -1,14 +1,18 @@
-media_presets:
-  wide_desktop: 'min-width: 1600px'
-  desktop: 'max-width: 1200px'
-  tablet: 'max-width: 900px'
+media_queries:
   mobile: 'max-width: 480px'
+  tablet: 'max-width: 900px'
+  desktop: 'max-width: 1200px'
+  wide_desktop: 'min-width: 1600px'
 
-markup_presets:
+presets:
   default:
     markup: auto
     formats: [webp, original]
-    widths: [200,400,800,1600,2400]
-    size: 1200px
+    widths: [400,800,1600,2800]
+    sizes:
+      mobile: 100vw
+      tablet: 100vw
+      desktop: 100vw
+      wide_desktop: 100vw
     fallback_width: 800
-    dimension_attributes: true
+    dimension_attributes: false

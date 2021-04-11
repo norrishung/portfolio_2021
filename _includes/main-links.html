@@ -1,10 +1,12 @@
 <div class="main-links">
-	{% for item in site.data.navigation %}
-	{% if item.link == "/" %}
-		<a href="{{ item.link }}" {% if page.url == "/" %} class="link--selected"{% endif %}>{{ item.name }}</a>
-	{% else %}
-		<a href="{{ item.link }}"{% if page.url contains item.link %} class="link--selected"{% endif %}>{{ item.name }}</a>
-	{% endif %}
-	{% endfor %}
+	<ul class="list--no-style">
+		{% for item in site.data.navigation %}
+		{% if item.link == "/" %}
+			<li><a href="{{ item.link }}" {% if page.url == "/" %} class="link--selected"{% endif %}>{{ item.name }}</a></li>
+		{% else %}
+			<li><a href="{{ item.link }}"{% if page.url contains item.link %} class="link--selected"{% endif %}>{{ item.name }}</a></li>
+		{% endif %}
+		{% endfor %}
+	</ul>
 </div>
 

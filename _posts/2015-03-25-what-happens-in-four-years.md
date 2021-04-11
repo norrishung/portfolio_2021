@@ -5,6 +5,9 @@ category: thoughts
 description: "A lot has happened since I built the last iteration of my portfolio in 2011. Here's a look at some of the decisions I made when rebuilding my portfolio for the modern day."
 ---
 
+<div class="row">
+	<div class="col-md-6" markdown="1">
+	
 A lot has happened since I built the last iteration of my portfolio in 2011. Looking back at it, I see a time capsule of web development four years ago. Web typography was still just taking off with Cufon and sIFR were the de facto methods of custom typefaces. Wordpress was your only option for a blogging platform. Pixels were still something you can discern on a screen and websites were built for a single dominant width.
 
 Fast forward to present day and the playing field has completely changed. @font-face has taken off and [font](https://typekit.com/") [hosting](http://www.webtype.com/") [services](http://www.typography.com/") offer robust and legal means of beautiful web typography. The mobile market explosion has mean that [responsive web design](http://alistapart.com/article/responsive-web-design") is the only way to work these days. Retina screens are a thing and we now have to hack our way around [responsive images](http://alistapart.com/article/responsive-images-in-practice"). Static site generators have become a popular means of serving up performant websites. Transitions and animations have helped to make the web more fluid and interactive. And, of course, pre-processors like [Sass](http://sass-lang.com/") and [LESS](http://lesscss.org/") exist (how did we ever work without them?).
@@ -37,4 +40,7 @@ In terms of browser prefixing and a flexible grid system, I opted in for [Bourbo
 
 I’ve always been in love with the typefaces from [Hoefler &amp; Co](http://www.typography.com/"). I’ve used their typefaces in a lot of my print work and work at Inkling and finally decided to bite the bullet to personally pay for their webfont service. The typefaces used are [Mercury](http://www.typography.com/fonts/mercury-text/overview/") and [Whitney](http://www.typography.com/fonts/whitney/overview/") - a pairing I’m absolutely obsessed with right now. My only complaint with this service is that you certainly have to sacrifice a bit of performance for beauty.
 
-Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.
+Phew. That’s it for now and I’m pretty proud of the technology stack that I’ve used to build this website. There’s no sign that the industry of web development is slowing down and I can’t wait to see what will change in the next four years. Personally, I’m hoping to see more of a convergence between web design and native app designs. I believe natively digital conceptual models like Material Design are here to stay and the capabilities of web design will need to catch up.	
+
+</div>
+</div>

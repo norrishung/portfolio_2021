@@ -10,6 +10,7 @@
 }
 
 .main-header__title a {
+	@include body-text();
 	text-decoration: none;
 }
 

@@ -5,6 +5,9 @@ category: thoughts
 description: "When I took a course on information design last year at RISD, my professor, Krzysztof Lenk, introduced in the first class the idea of Aristotelian aesthetics. He described this notion as the ability of good design to evoke intense emotion in its audience."
 ---
 
+<div class="row">
+	<div class="col-md-6" markdown="1">
+
 When I took a course on information design last year at RISD, my professor, Krzysztof Lenk, introduced in the first class the idea of Aristotelian aesthetics. He described this notion as the ability of good design to evoke intense emotion in its audience. He said this reaction should not be caused by the design of embellishments but by good design of the information itself. Good information design both structures the information itself in a way that is easily comprehended and, perhaps more crucially, has a singular thesis. When these two principles are achieved, we can achieve a beauty in the Aristotelian sense.
 
 I have often recalled this one moment in class and I think I have finally distilled how intricate this one bit of advice is. Intrigued by this discussion, I went to try and fully understand what Aristotle’s philosophy of design was. Unfortunately, a initial google search brought nothing up on the matter – Aristotle never did have a stance on visual design. After a little bit of research, the closest literature I could find on the matter was an essay that Aristotle wrote on literary aesthetics.
@@ -20,4 +23,9 @@ Here is another interesting quote from the essay:
 He uses this metaphor to understand the organization and magnitude of a plot but, again, there is a direct corollary to design. Design and detail of the information is important but it one has to be wary of that including unimportant details of the information can take away from the overall message of the picture. Removing too many details, however, can make the design boring and unconvincing.
 
 How well all of this actually applies to all types of information design is hard to say but this was certainly an interesting and different perspective on design implying that designers should not only have a creative eye but a creative tongue as well. A good designer, then, can learn a lot from the art of good storytelling.
+
+		
+</div>
+</div>
+
 

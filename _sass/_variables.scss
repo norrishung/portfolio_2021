@@ -4,7 +4,7 @@ $color-dark-grey: #333333;
 $color-grey: #757575;
 $color-light-grey: #E5E5E5;
 $color-white: #FFFFFF;
-$color-teal: #1C875A;
+$color-blue: #007AFC;
 
 
 // Spacing
@@ -31,13 +31,13 @@ $s136: rem(136);
 
 
 // Typography
-$font-text: "Roslindale";
-$font-display: "Roslindale-Deck-Narrow";
+$font-text: "Roslindale", "Georgia", "Times New Roman", serif;
+$font-display: "Roslindale-Deck-Narrow", "Georgia", "Times New Roman", serif;
 
 
 // Images
-$border-radius-picture: $s72;
-$border-radius-picture-mobile: $s40;
+$border-radius-picture: $s52;
+$border-radius-picture-mobile: $s24;
 
 // Media Queries
 $mobile: 480px;

@@ -48,12 +48,3 @@
     margin-bottom: 0;
   }
 }
-
-.role__link {
-  font-style: italic;
-  &:after {
-    transition: all .3s ease-out;
-    padding-left: 0;
-    content: ' →';
-  }
-}

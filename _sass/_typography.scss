@@ -24,16 +24,19 @@
 }
 
 @mixin subtle-link() {
+  transition: color .2s ease-out;
   color: $color-grey;
   text-decoration: none;
+  text-decoration-color: $color-blue;
   &:hover {
     text-decoration: underline;
-    color: $color-light-grey;
+    color: $color-blue;
   }
 }
 
 @mixin header() {
   font-family: $font-text;
+  letter-spacing: -.01em;
   font-weight: bold;
   font-size: $s20;
   line-height: $s32;
@@ -46,24 +49,14 @@
 
 @mixin large-header() {
   font-family: $font-display;
+  letter-spacing: -.01em;
   font-weight: bold;
-  font-size: $s32;
-  line-height: $s52;
+  font-size: $s24;
+  line-height: $s40;
 
-  @include media($tablet) {
-    font-size: $s40;
-    line-height: $s64; 
-  }
-}
-
-@mixin largest-header() {
-  font-family: $font-display;
-  font-weight: bold;
-  font-size: $s40;
-  line-height: $s64; 
-  @include media($tablet) {
-    font-size: $s72;
-    line-height: $s96;
+  @include media( $tablet) {
+    font-size: $s32;
+    line-height: $s48;
   }
 }
 
@@ -83,14 +76,37 @@ p {
 }
 
 a {
+  transition: color .2s ease-out;
   color: $color-black;
+  text-decoration-color: $color-blue;
   @media (prefers-color-scheme: dark) {
     color: $color-light-grey;
   }
 }
 
+p a, h1 a, h2 a, h3 a, li a {
+  &:hover {
+    color: $color-blue;
+  }
+}
+
 .link--subtle {
   @include subtle-link();
+}
+
+.link--arrow {
+  text-decoration: none;
+  &:after {
+    display: inline-block;
+    transition: padding .3s ease-out;
+    padding-left: .5em;
+    content: ' →';
+
+    a:hover & {
+      color: $color-blue;
+      padding-left: 1.5em;
+    }
+  }
 }
 
 .quote {
@@ -104,8 +120,18 @@ a {
 
   blockquote {
     @include large-header();
-    color: $color-grey;
+    color: $color-dark-grey;
+    @media (prefers-color-scheme: dark) {
+      color: $color-light-grey;
+    }
     p {
+      &:last-of-type {
+        margin-bottom: $s20;
+
+        @include media( $tablet) {
+          margin-bottom: $s24;
+        }
+      }
       &:before {
         content: '\201C';
       }
@@ -117,7 +143,6 @@ a {
 
   .text--detail {
     @include helper-text();
-    font-style: italic;
     margin-bottom: 0;
   }
 }
@@ -164,6 +189,7 @@ ul {
 
 .list--no-style {
   list-style: none;
+  margin: 0;
   li {
     text-indent: 0;
     margin-left: 0;
@@ -171,5 +197,20 @@ ul {
     &:before {
       display: none;
     }
+  }
+}
+
+hr {
+  margin-top: $s72;
+  margin-bottom: $s72;
+  @include media($tablet) {
+    margin-top: $s96;
+    margin-bottom: $s96;
+  }
+  border: 0;
+  height: 2px;
+  background-color: $color-light-grey;
+  @media (prefers-color-scheme: dark) {
+     background-color: $color-dark-grey;
   }
 }

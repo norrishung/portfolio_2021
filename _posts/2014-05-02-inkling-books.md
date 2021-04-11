@@ -2,23 +2,22 @@
 layout: project
 title: Inkling Books
 category: projects
-description: From 2011-2014, I worked at Inkling in partnership with publishers and educational experts to imagine the future of the book.  In small teams, we translated hundreds of textbooks, cookbooks, and travel guides to the digital medium. I worked on titles such as Frommer’s Day by Day, Modernist Cuisine, Campbell Biology, and Megg’s History of Graphic Design.
+description: From 2011-2014, I worked at Inkling in partnership with publishers and educational experts to imagine the future of the book. I worked on titles such as Frommer’s Day by Day, Modernist Cuisine, and Megg’s History of Graphic Design.
 organization: Inkling
 dates: 2011 – 2014
-role: Design and front-end development
+role: Design / Development
 hero: /portfolio/inkling-books/inkling_campbells.png
 ---
 
+<figure>
+  {% picture /portfolio/inkling-books/inkling_gilroy.png %}
+  <figcaption>
+    <p>Gilroy's Atlas of Anatomy</p>
+  </figcaption>
+</figure>
+
 <div class="row">
-  <div class="col-md-5">
-    <figure>
-      {% picture /portfolio/inkling-books/inkling_gilroy.png %}
-      <figcaption>
-        <p>Gilroy's Atlas of Anatomy</p>
-      </figcaption>
-    </figure>
-  </div>
-  <div class="col-md-6 col-md-offset-1" markdown="1">
+  <div class="col-md-6 col-md-offset-6" markdown="1">
 
 From 2011-2014, I worked at Inkling in partnership with publishers and educational experts to imagine the future of the book.  In small teams, we translated hundreds of textbooks, cookbooks, and travel guides to the digital medium. I worked on titles such as Frommer’s Day by Day, Modernist Cuisine, Campbell Biology, and Megg’s History of Graphic Design.
 
@@ -27,17 +26,15 @@ In 2010, when Apple launched the iPad, everyone saw a revolution for publishing.
   </div>
 </div>
 
+<figure>
+  {% picture /portfolio/inkling-books/inkling_frommers.png %}
+  <figcaption>
+    <p>Frommer's Day by Day Travel Guides</p>
+  </figcaption>
+</figure>
 
 <div class="row">
-  <div class="col-md-5">
-    <figure>
-      {% picture /portfolio/inkling-books/inkling_frommers.png %}
-      <figcaption>
-        <p>Frommer's Day by Day Travel Guides</p>
-      </figcaption>
-    </figure>
-  </div>
-  <div class="col-md-6 col-md-offset-1" markdown="1">
+  <div class="col-md-6 col-md-offset-6" markdown="1">
 
 As a content designer and developer, I focused on the questions of the reading experience itself. What were the differences in affordances and constraints between the physical page and the digital touchscreen? How should that, in turn, influence the fundamental ways in which we interact with a book? How can different methods of interactive help make learning more engaging? And what does good book design look like when it can shapeshift forms between a desktop, iPad, and smartphone?
 

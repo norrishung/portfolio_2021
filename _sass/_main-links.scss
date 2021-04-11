@@ -6,24 +6,24 @@
 
 	@include helper-text();
 	a {
-		transition: color .3s ease-out;
+		transition: color .2s ease-out;
 		display: block;
 		color: $color-grey;
 		text-decoration: none;
+		display: inline-block;
 
 		&:before {
 			transition: opacity .3s ease-out;
 			margin-left: -1.5em;
 			display: inline-block;
 			width: 1.5em;
+			color: $color-blue;
 			content: '—';
 			opacity: 0;
 		}
 
 		&:hover{
-			@media (prefers-color-scheme: dark) {
-			    color: $color-light-grey;
-			}
+			color: $color-blue;
 			&:before {
 				opacity: 1;
 			}

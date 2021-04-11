@@ -3,17 +3,38 @@ layout: default
 ---
 
 <article class="post main-content">
-	<header class="post__header row">
-		<div class="post__info col-md-5">
-			<h1 class="post__title">{{ page.title }}</h1>
-			<p class="post__detail">{{ page.dates }}</p>
-			<p class="post__detail">{{ page.organization }}</p>
-		</div>
-		<div class="post__hero col-md-offset-1 col-md-6">
-			{% if page.hero %} {% picture {{ page.hero }}  %} {% endif %}
-		</div>
-	</header>
-	<section class="post__content">
-		{{ content }}
-	</section>
+  <header class="post__header">
+    <div class="post__info row">
+      <div class="post__title-container col-sm-6 col-xs-12">
+        <h1 class="post__title">{{ page.title }}</h1>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <p class="post__detail">{{ page.organization }}</p>
+        <p class="post__detail">{{ page.role }}</p>
+        {% for detail in page.details %}
+        <p class="post__detail">{{ detail }}</p>
+        {% endfor %}
+        {% if page.dates %}
+        <p class="post__detail">{{ page.dates }}</p>
+        {% else %}
+        <p class="post__detail">{{ page.date | date: "%b %-d, %Y" }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% if page.hero %}
+    <div class="row">
+      <div class="post__hero col-md-12">
+         {% picture {{ page.hero }} %}
+         {% if page.hero_credit %}
+         <figcaption>
+           <p>Photo credit: {{ page.hero_credit }}</p>
+         </figcaption>
+         {% endif %}
+      </div>
+    </div>
+    {% endif %}
+  </header>
+  <section class="post__content">
+    {{ content }}
+  </section>
 </article>
