@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: What Happens in Four Years
 category: thoughts
 description: "A lot has happened since I built the last iteration of my portfolio in 2011. Here's a look at some of the decisions I made when rebuilding my portfolio for the modern day."

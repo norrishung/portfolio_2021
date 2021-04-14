@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Aristetolian Aesthetics
 category: thoughts
 description: "When I took a course on information design last year at RISD, my professor, Krzysztof Lenk, introduced in the first class the idea of Aristotelian aesthetics. He described this notion as the ability of good design to evoke intense emotion in its audience."

@@ -1,11 +1,11 @@
 ---
-layout: project
+layout: post
 title: Limited Memory
-category: experiments
+category: explorations
 description: The goal of Limited Memory is to challenge our reliance on digital storage to help retrieve the past, encourage people to process their memories, and explore the idea of memory degradation over time. 
 organization: Copenhagen Institute of Interaction Design
 role: Concept / Design / Prototype / Development
-hero: picture /portfolio/limited-memory/limited_memory_1.jpg
+hero: /portfolio/limited-memory/limited_memory_1.jpg
 dates: June 2020
 ---
 
@@ -30,7 +30,7 @@ Limited Memory is an audio recording device which requires users to be more inte
 
 The goal of Limited Memory is to challenge our reliance on digital storage to help retrieve the past, encourage people to process their memories, and explore the idea of memory degradation over time.
 
-This was the result of 1-week group project with Aakash Dewan, Julian Jimsa, Diana Pang for the physical computing course during the CIID Interaction Design Programme in 2020. The design brief was to reinvent "an ordinary object by reimagining its existing interactivity that considers a beyond-the-user scale." While we loosely followed a design process that involved research, brainstorming, prototyping, and iteration, we also allowed the process to follow a more conceptual path. 
+This was the result of 1-week group project with Aakash Dewan, Julian Jimsa, and Diana Pang for the physical computing course during the CIID Interaction Design Programme in 2020. The design brief was to "reinvent an ordinary object by reimagining its existing interactivity that considers a beyond-the-user scale." While we loosely followed a design process that involved research, brainstorming, prototyping, and iteration, we also allowed the process to take a more artistic path for this project.
 		
 </div>
 </div>
@@ -100,22 +100,34 @@ The last crucial theme explored during this topic is the malleability of memory.
 	<div class="col-md-5">
 		<figure>
 			<img src="/images/fullsize/portfolio/limited-memory/recording.gif">
+			<figcaption>
+				<p>The antenna acts as the interface to start and stop recordings.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/images/fullsize/portfolio/limited-memory/dying.gif">
+			<figcaption>
+				<p>Memories slowly fade as they are ignored.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/images/fullsize/portfolio/limited-memory/play.gif">
+			<figcaption>
+				<p>Playing a memory brings it back to life.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			<img src="/images/fullsize/portfolio/limited-memory/letgo.gif">
+			<figcaption>
+				<p>Leting go of existings memory make room for new ones.</p>
+			</figcaption>
 		</figure>
 	</div>
 	<div class="col-md-6 col-md-offset-1" markdown="1">
 
 Limited Memory is a provokatype that pushes us to think about our relationship both with technology and our own memories. Instead of unlimited storage, what if we only had 9MB to store our memories? Which memories would you keep and what would you let go of? Would it change how you ritualize and process your memories?
 
-We wanted a form that invoked a theme of nostalgia and memories. Limited memory is an audio recording device that is inspired by old-time radios and cassette players. There are two main components to Limited Memory: 1) the memory cassettes and 2) the memory player.
+We wanted a form that invoked a theme of nostalgia and memories and is inspired by old-time radios and cassette players. There are two main components to Limited Memory: the memory cassettes and the memory player.
 
 **Memory Cassettes**
 
@@ -136,6 +148,9 @@ The memory player can hold up to three memory cassettes. It has a dedicated play
 
 <figure>
 	{% picture /portfolio/limited-memory/3_limitedmemory.jpg %}
+	<figcaption>
+		<p>Working on early explorations and sketches of the form.</p>
+	</figcaption>
 </figure>
 
 <div class="row">
@@ -151,7 +166,7 @@ From there, we aligned on the core interactions of the device and relied on body
 
 We had two initial prototypes - one for form and another for function. We split up into pairs to work on each separately. Julian and I worked on the Arduino circuitry while Aakash and Diana worked on getting the form right. We started off by aligning on what our state machine would look like. Then we built the circuit and coded the programming feature by feature until every interaction was flushed out.
 
-Inevitably, we ran into many problems along the way, including trying to debug third-party mp3 shields with paid PDFs of decade-old Australian DIY magazines. Risky experiments like this were time-boxed and when they didn't work out, we fell back to doing audio processing on a connected laptop with p5.js.
+Inevitably, we ran into many problems along the way, including trying to debug third-party MP3 shields with paid PDFs of decade-old Australian DIY magazines. Risky experiments like this were time-boxed and when they didn't work out, we fell back to doing audio processing on a connected laptop with p5.js.
 
 When both of the form and function prototypes were flushed out, we created our third and final prototype to merge the two together. The final prototype was composed of a base station and three recording boxes. The base station prototype was built with wood panels, an Arduino Uno, speaker, and two buttons. The recording box prototype was built with wood and acrylic panels, a 3D-printed antenna, an Arduino Nano 33 IoT, NeoPixel LED strip, a photoresistor, and recording LED. A laptop running p5 recorded the sounds and facilitated communication between separate devices through bluetooth and serial connections.
 
@@ -161,18 +176,31 @@ This project was highlighted by Arduino's official website and instagram account
 	<div class="col-md-5 col-md-offset-1">
 		<figure>
 			{% picture /portfolio/limited-memory/4_limitedmemory.jpg %}
-		</figure>
-		<figure class="figure--with-border">
-			{% picture /portfolio/limited-memory/6_stateMachine_limitedmemory.jpg %}
+			<figcaption>
+				<p>Working on the final version of the physical prototype.</p>
+			</figcaption>
 		</figure>
 		<figure>
 			{% picture /portfolio/limited-memory/5_limitedmemory.jpg %}
+			<figcaption>
+				<p>An early prototype of the memory box circuit.</p>
+			</figcaption>
 		</figure>
 		<figure class="figure--with-border">
 			{% picture /portfolio/limited-memory/technical_diagram.png %}
+			<figcaption>
+				<p>Due to the short timeframe of this project, a laptop running p5.js was used to "Wizard of Oz" the communication and recordings between the two devices.</p>
+			</figcaption>
 		</figure>
 	</div>
 </div>
+
+<figure class="figure--with-border">
+	{% picture /portfolio/limited-memory/6_stateMachine_limitedmemory.jpg %}
+	<figcaption>
+		<p>Diagramming the state machine for our device.</p>
+	</figcaption>
+</figure>
 
 <figure>
 	{% picture /portfolio/limited-memory/7_limitedmemory.jpg %}

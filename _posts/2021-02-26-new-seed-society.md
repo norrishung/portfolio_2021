@@ -1,12 +1,12 @@
 ---
-layout: project
+layout: post
 title: New Seed Society
 category: projects
-description: The New Seed Society is a holistic program that seeks to accelerate the creation of regenerative businesses in Central America in order to promote more resilient rural communities in the face of a changing climate.
+description: For my thesis project at CIID, I explored the roles that design and technology could have in helping rural communities adapt to a changing climate.
 organization: Copenhagen Institute of Interaction Design
 role: Research / Design
 dates: 2020 – 2021
-hero: picture /portfolio/new_seed_society/000.png
+hero: /portfolio/new_seed_society/000.png
 ---
 
 
@@ -66,7 +66,7 @@ The ideal participants are budding entrepreneurs from rural women groups and tho
 <figure>
 	<video src="/videos/new_seed_landing_page.mp4" type="video/mp4" autoplay loop muted playsinline></video>
   <figcaption>
-    <p>The New Seed Society landing page introducing the Accelerator program to prospective farmers. The accelerator program provides participants with the upfront agricultural and business guidance they need to get the regenerative business off the ground.</p>
+    <p>The New Seed Society landing page introduces the accelerator program to prospective farmers. The accelerator program provides participants with the upfront agricultural and business guidance they need to get the regenerative business off the ground.</p>
   </figcaption>
 </figure>
 <figure>
@@ -100,7 +100,7 @@ The New Seed Society feeds into many of the UN Sustainable Development Goals inc
   <figure class="figure--with-border figure--no-round">
     {% picture /portfolio/new_seed_society/800.png %}
     <figcaption>
-      <p>A journey map that illustrate some of the biggest barriers farmers face as they seek to build or transition to a regenerative farm.</p>
+      <p>A journey map that illustrates some of the biggest barriers farmers face as they seek to build or transition to a regenerative farm.</p>
     </figcaption>
   </figure>
   <figure class="figure--with-border figure--no-round">
@@ -247,7 +247,7 @@ All of this lead to me to my initial concept direction - how do we help more rur
 <div class="row">
 	<div class="col-md-6" markdown="1">
 		
-With a clear concept direction, I set out to bring life to my idea. In summary, I led 2 brainstorming sessions with classmates, visited two rural communities, co-created with six farmers and five subject matter experts, and conducted three usability testing sessions.
+With a clear concept direction, I set out to bring life to my idea. In summary, I led two brainstorming sessions with classmates, visited two rural communities, co-created with six farmers and five subject matter experts, and conducted three usability testing sessions.
 In an effort to generate as many ideas as possible, I recruited my classmates for a group brainstorming session. Because the subject matter was quite different from my their backgrounds, I decided to conduct a narrative brainstorming session where I had them first read a day-in-the-life story of a farmer in order to help them to better empathize.
 
 From these brainstormings, the concept of an accelerator program was born. I went out to test whether the idea of an accelerator was interesting and was met with a lot of positive feedback from both farmers and subject matter experts about this general direction.

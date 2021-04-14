@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Stages of Nitrogen Loss in Food Production"
 date:   2010-08-03 14:50:30
 published: false

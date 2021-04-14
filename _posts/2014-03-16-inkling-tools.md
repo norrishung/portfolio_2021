@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  Inkling Tools
 category: projects
 description: At Inkling, our goal was to reimagine educational books for the digital era. A new type of book requires a new type of authoring tool. I worked several features that helped content authors to build interactive books on their own.

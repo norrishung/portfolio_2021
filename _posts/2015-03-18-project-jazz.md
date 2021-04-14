@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Jazz Brewing"
 date:   2015-03-18 14:50:30
 published: false

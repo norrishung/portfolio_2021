@@ -23,6 +23,19 @@
   }
 }
 
+@mixin detail-text() {
+  font-family: $font-text;
+  letter-spacing: -.01em;
+  font-size: $s12;
+  line-height: $s20;
+  color: $color-grey;
+
+  @include media( $tablet) {
+    font-size: $s16;
+    line-height: $s24;
+  }
+}
+
 @mixin subtle-link() {
   transition: color .2s ease-out;
   color: $color-grey;
@@ -147,6 +160,13 @@ p a, h1 a, h2 a, h3 a, li a {
   }
 }
 
+.text--credits {
+  @include detail-text();
+
+  &:before {
+    content: "Photo credit: ";
+  }
+}
 
 ul, ol {
   margin-top: $s40;

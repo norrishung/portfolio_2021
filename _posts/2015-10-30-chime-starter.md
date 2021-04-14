@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: "Chime Starter"
 date:   2015-10-29 14:50:30
 categories: cfa

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 category: archived
 title: How we created a campaign to help college students eat healthier.
 description: In 2017, the GetCalFresh team partnered with the public health community to launch a statewide campaign across college campuses that transformed the perception of food assistance for students. While one would be hard pressed to find a student who had heard of CalFresh in 2016, it is now a very normal part of the college experience in 2018. Today, students are over 25% of our applicant base and we’ve helped over 130,000 students across California apply for CalFresh.

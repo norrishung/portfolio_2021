@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Inkling Books
 category: projects
 description: From 2011-2014, I worked at Inkling in partnership with publishers and educational experts to imagine the future of the book. I worked on titles such as Frommer’s Day by Day, Modernist Cuisine, and Megg’s History of Graphic Design.

@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: GetCalFresh
 category: projects
 description: GetCalFresh is a service that helps millions of Californians each year to put food on the table. What started out as proof-of-concept prototype was eventually adopted by the State of California as the official online application for CalFresh.

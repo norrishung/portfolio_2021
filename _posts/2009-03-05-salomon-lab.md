@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Visualizing Proteomic Data"
 date:   2009-03-18 14:50:30
 categories: college

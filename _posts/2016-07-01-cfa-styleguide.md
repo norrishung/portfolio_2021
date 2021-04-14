@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: How we gave products at Code for America a dignified, friendly, and unified style.
 category: archived
 description: In 2016, another designer and I led an bottom-up effort to create a org-wide styleguide. It has elevated Code for America’s design standards and brought product teams together.

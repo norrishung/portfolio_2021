@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: Accessibility @ CfA
 category: projects
 description: Driven by a policy-change that expanded the reach of food stamps in California, we took the opportunity to improve our accessibility standards first for GetCalFresh and then for all services at Code for America.

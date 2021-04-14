@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Poptip Viewer"
 date:   2014-1-02 14:50:30
 categories: inkling

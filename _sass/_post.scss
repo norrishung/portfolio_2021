@@ -140,13 +140,13 @@
   }
 
   .row--no-spacing {
-    margin-top: -$s40;
+    margin-top: 0;
     @include media($tablet) {
-      margin-top: -$s52;
+      margin-top: 0;
     }
   }
 
-  .col-md-4, .col-md-5, .col-md-6, .col-md-12 {
+  .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-12 {
     > *:first-child {
       margin-top: 0;
     }

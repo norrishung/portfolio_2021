@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Mindshare"
 date:   2015-03-18 14:50:30
 categories: personal
