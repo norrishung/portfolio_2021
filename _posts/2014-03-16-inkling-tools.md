@@ -19,14 +19,14 @@ At Inkling, our goal was to reimagine the educational book for the digital era. 
 </div>
 
 <figure>
-  <video src="/videos/traverser_walkthrough_720p.mov" autoplay loop></video>
+  <video src="/videos/inkling_tools/traverser_walkthrough_720p.mov" autoplay loop></video>
   <figcaption>
     <p>Traverser was a tool I built to help editors quickly navigate links using keyboard shortcuts. They could quickly scan the text of the link and cross-reference it to the exact section it linked too. This tool leveraged what a computer did best while leaving the editorial part to humans.</p>
   </figcaption> 
 </figure>
 
 <figure>
-  <video src="/videos/poptip_viewer_walkthrough_720p.mov" autoplay loop></video>
+  <video src="/videos/inkling_tools/poptip_viewer_walkthrough_720p.mov" autoplay loop></video>
   <figcaption>
     <p>Poptip viewer was a tool I built to help editors to quickly scan all of the interactive glossary terms and footnotes in a book. They could see the text of the glossary term or footnote and the expanded content contained inside of it.</p>
   </figcaption> 

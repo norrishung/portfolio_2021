@@ -67,7 +67,7 @@ We created a digital assister that helped guide remote state workers through the
   <div class="col-md-6 col-md-offset-6" markdown="1">
 
 <figure>
-  <video src="/videos/fee_agent_testing.mp4" type="video/mp4" autoplay loop></video>
+  <video src="/videos/alaska/fee_agent_testing.mp4" type="video/mp4" autoplay loop></video>
   <figcaption>
     <p>We interviewed and tested our prototypes with remote communities.</p>
   </figcaption>
@@ -79,7 +79,7 @@ For the text-based reminder system, I created a video prototype that illustrated
 </div>
 
 <figure>
-  <video src="/videos/status_checker_720p.mp4" type="video/mp4" controls></video>
+  <video src="/videos/alaska/status_checker_720p.mp4" type="video/mp4" controls></video>
   <figcaption>
     <p>A video prototype to show how existing data could be used to improve the user experience.</p>
   </figcaption>

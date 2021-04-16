@@ -80,7 +80,7 @@ The final direction was one that we thought set an appropriate optimistic tone w
 </figure>
 
 <figure>
-  <video src="/videos/student_portal.mov" autoplay></video>
+  <video src="/videos/student/student_portal.mov" autoplay></video>
   <figcaption>
       <p>Student landing page for GetCalFresh.org</p>
   </figcaption>

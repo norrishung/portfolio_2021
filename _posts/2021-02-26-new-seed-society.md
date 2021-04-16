@@ -64,13 +64,13 @@ The ideal participants are budding entrepreneurs from rural women groups and tho
 </div>
 
 <figure>
-	<video src="/videos/new_seed_landing_page.mp4" type="video/mp4" autoplay loop muted playsinline></video>
+	<video src="/videos/new_seed/new_seed_landing_page.mp4" type="video/mp4" autoplay loop muted playsinline></video>
   <figcaption>
     <p>The New Seed Society landing page introduces the accelerator program to prospective farmers. The accelerator program provides participants with the upfront agricultural and business guidance they need to get the regenerative business off the ground.</p>
   </figcaption>
 </figure>
 <figure>
-	<video src="/videos/new_seed_mobile_app.mp4" type="video/mp4" autoplay loop muted playsinline></video>
+	<video src="/videos/new_seed/new_seed_mobile_app.mp4" type="video/mp4" autoplay loop muted playsinline></video>
   <figcaption>
     <p>New Seed Mobile app helps regenerative farmers to connect and share regenerative strategies and business opportunities with each other. Left to right: share challenges you are facing with the community, get support from the New Seed community and knowledgebase, get timely notifications about weather and business opportunities, keep track of key regenerative agriculture indicators with easy to follow step-by-step guides.</p>
   </figcaption>
@@ -230,7 +230,7 @@ All of this lead to me to my initial concept direction - how do we help more rur
 </div>
 
 <figure>
-  <video src="/videos/new_seed_theory.mp4" type="video/mp4" autoplay loop muted playsinline></video>
+  <video src="/videos/new_seed/new_seed_theory.mp4" type="video/mp4" autoplay loop muted playsinline></video>
   <figcaption>
     <p>If systemic barriers make it hard for older traditional smallholding farmers to adopt regenerative practices, could we instead target younger entreprenueral folks and have them provide the social proof and support to others in the community?</p>
   </figcaption>

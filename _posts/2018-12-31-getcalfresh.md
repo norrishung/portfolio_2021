@@ -24,7 +24,7 @@ From 2017-2018, the GetCalFresh team combined qualitative and quantitative resea
 </div>
 <div class="col-md-5 col-md-offset-1">
   <figure>
-   <video src="/videos/gcf_c4mobile_walkthrough.mp4" type="video/mp4" autoplay loop muted playsinline></video>
+   <video src="/videos/gcf/gcf_c4mobile_walkthrough.mp4" type="video/mp4" autoplay loop muted playsinline></video>
    <figcaption>
      <p>Applying online was the most painful part of the process. It prevented many eligible people from accessing a service they desperately needed.</p>
    </figcaption>
@@ -121,7 +121,7 @@ After feeling good about the new redesign, our product manager and I broke the r
 Here is the final result of the new application:
 
 <figure>
-  <video src="/videos/gcf_walkthrough.mp4" type="video/mp4" autoplay loop muted playsinline></video>
+  <video src="/videos/gcf/gcf_walkthrough.mp4" type="video/mp4" autoplay loop muted playsinline></video>
   <figcaption>
     <p>What <a href="https://www.getcalfresh.org">GetCalFresh</a> looks like as of January 2019. We continue to iterate to improve the user-experience and incorporate new legislation as it is passed.</p>
   </figcaption>
