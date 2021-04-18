@@ -1,0 +1,42 @@
+  figure {
+    text-align: center;
+    margin-top: $s96;
+    margin-bottom: $s96;
+    @include media($tablet) {
+      margin-top: $s136;
+      margin-bottom: $s136;
+    }
+
+    &.figure--with-border img {
+      border: 2px solid $color-light-grey;
+      @media (prefers-color-scheme: dark) {
+        border: 2px solid $color-dark-grey;
+      }
+    }
+
+    &.figure--no-round img {
+      border-radius: 0;
+    }
+    
+
+    img, video, iframe {
+      @include round-photo();
+      max-width: 100%;
+      margin-bottom: $s12;
+      @include media($tablet) {
+        margin-bottom: $s16;
+      }
+    }
+
+
+    video {
+      max-width: 100%;
+    }
+
+    figcaption {
+      @include helper-text();
+      font-style: italic;
+      text-align: left;
+      max-width: 40em;
+    }
+  }
