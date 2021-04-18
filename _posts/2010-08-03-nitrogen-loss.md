@@ -3,7 +3,7 @@ layout: post
 title:  "Stages of Nitrogen Loss in Food Production"
 date:   2010-08-03 14:50:30
 published: false
-categories: college
+categories: archived
 description: "Many times, I find myself thinking about what the numbers actually are when reading about environmental claims. I’ve decided to start making information graphics illustrating answers to these questions. This first graphic follows the trail of industrially produced nitrogen and the inefficiencies in the process."
 tags:
   - Design

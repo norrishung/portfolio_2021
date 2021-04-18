@@ -2,7 +2,7 @@
 layout: post
 title:  "Mindshare"
 date:   2015-03-18 14:50:30
-categories: personal
+categories: archived
 description: "Mindshare is a mobile/web app that helps you discover what your friends love reading online."
 tags:
     - UX/UI Design
