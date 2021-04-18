@@ -25,7 +25,7 @@ permalink: /
 			<li><a href="{% post_url 2018-12-31-getcalfresh %}">GetCalFresh</a></li>
 			<li><a href="{% post_url 2019-09-03-honeycrisp %}">Accessibility @ CfA</a></li>
 		</ul>
-		<h2>Select Experiments</h2>
+		<h2>Select Explorations</h2>
 		<ul class="list--no-style">
 			<li><a href="{% post_url 2020-06-21-limited-memory %}">Limited Memory</a></li>
 			<li><a href="{% post_url 2020-09-04-sensing-time %}">Sensing Time</a></li>

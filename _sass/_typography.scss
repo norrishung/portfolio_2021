@@ -156,12 +156,14 @@ p a, h1 a, h2 a, h3 a, li a {
 
   .text--detail {
     @include helper-text();
+    font-style: italic;
     margin-bottom: 0;
   }
 }
 
 .text--credits {
   @include detail-text();
+  font-style: italic;
 
   &:before {
     content: "Photo credit: ";
