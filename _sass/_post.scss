@@ -4,11 +4,13 @@
     margin-bottom: $s136;
   }
   @include border-bottom();
+}
 
-  figcaption {
-    @include helper-text();
-    text-align: left;
-    max-width: 40em;
+.post__hero {
+  margin-top: 0;
+  margin-bottom: $s96;
+  @include media($desktop--small) {
+    margin-bottom: $s136;
   }
 }
 
@@ -70,16 +72,6 @@
   }
 }
 
-.post__hero {
-  margin-bottom: $s96;
-  @include media($desktop--small) {
-    margin-bottom: $s136;
-  }
-  img {
-    max-width: 100%;
-    @include round-photo();
-  }
-}
 
 .post__content {
   border-bottom: 2px solid $color-light-grey;

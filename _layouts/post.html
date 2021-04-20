@@ -23,13 +23,18 @@ layout: default
     </div>
     {% if page.hero %}
     <div class="row">
-      <div class="post__hero col-md-12">
-         {% picture {{ page.hero }} %}
-         {% if page.hero_credit %}
-         <figcaption>
-           <p class="text--credits">{{ page.hero_credit }}</p>
-         </figcaption>
-         {% endif %}
+      <div class="col-md-12">
+        <figure class="post__hero">
+          {% picture {{ page.hero }} %}
+          <figcaption>
+             {% if page.hero_caption %}
+             <p>{{ page.hero_caption }}</p>
+             {% endif %}
+             {% if page.hero_credit %}
+             <p class="text--credits">{{ page.hero_credit }}</p>
+             {% endif %}
+          </figcaption>
+        </figure>
       </div>
     </div>
     {% endif %}
