@@ -21,6 +21,10 @@
     font-size: $s24;
     line-height: $s40;
   }
+
+  a {
+    color: $color-grey;
+  }
 }
 
 @mixin detail-text() {
@@ -33,6 +37,10 @@
   @include media( $desktop--small) {
     font-size: $s16;
     line-height: $s24;
+  }
+
+  a {
+    color: $color-grey;
   }
 }
 
@@ -86,6 +94,14 @@ p {
   @include media($desktop--small) {
     margin-bottom: $s40;
   }
+}
+
+.text--helper {
+  @include helper-text();
+}
+
+.text--detail {
+  @include detail-text();
 }
 
 a {
