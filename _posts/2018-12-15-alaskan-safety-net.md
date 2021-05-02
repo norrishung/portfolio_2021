@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alaskan Safety Net
-category: projects
+category: archived
 description: In 2018, we engaged with the State of Alaska to improve access to safety net services. We conducted research to understand the biggest opportunity areas and prototyped two technology-based interventions.
 organization: Code for America
 dates: 2018
