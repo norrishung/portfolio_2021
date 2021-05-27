@@ -248,7 +248,7 @@ All of this lead to me to my initial concept direction - how do we help more rur
 	<div class="col-md-6" markdown="1">
 		
 With a clear concept direction, I set out to bring life to my idea. In summary, I led two brainstorming sessions with classmates, visited two rural communities, co-created with six farmers and five subject matter experts, and conducted three usability testing sessions.
-In an effort to generate as many ideas as possible, I recruited my classmates for a group brainstorming session. Because the subject matter was quite different from my their backgrounds, I decided to conduct a narrative brainstorming session where I had them first read a day-in-the-life story of a farmer in order to help them to better empathize.
+In an effort to generate as many ideas as possible, I recruited my classmates for a group brainstorming session. Because the subject matter was quite different from their backgrounds, I decided to conduct a narrative brainstorming session where I had them first read a day-in-the-life story of a farmer in order to help them to better empathize.
 
 From these brainstormings, the concept of an accelerator program was born. I went out to test whether the idea of an accelerator was interesting and was met with a lot of positive feedback from both farmers and subject matter experts about this general direction.
 
