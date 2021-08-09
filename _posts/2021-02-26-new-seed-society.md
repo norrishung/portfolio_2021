@@ -2,7 +2,7 @@
 layout: post
 title: New Seed Society
 category: projects
-description: For my thesis project at CIID, I explored the roles that design and technology could have in helping rural communities adapt to a changing climate.
+description: For my thesis project at CIID, I explored the roles that design and technology could have in helping rural communities adapt to a changing climate. This project was a 2021 winner in the Core77 Design Awards.
 organization: Copenhagen Institute of Interaction Design
 role: Research / Design
 dates: 2020 – 2021
