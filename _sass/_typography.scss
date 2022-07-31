@@ -72,12 +72,12 @@
   font-family: $font-display;
   letter-spacing: -.01em;
   font-weight: bold;
-  font-size: $s24;
-  line-height: $s40;
+  font-size: $s32;
+  line-height: $s48;
 
   @include media( $desktop--small) {
-    font-size: $s32;
-    line-height: $s48;
+    font-size: $s40;
+    line-height: $s64;
   }
 }
 
