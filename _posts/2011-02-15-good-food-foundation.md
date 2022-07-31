@@ -6,7 +6,7 @@ details:
   - Design Coordinator
 dates: 2010 – 2011
 description: After college, I helped to launch the first year of the Good Food Awards. Today, it remains as one of the highest forms of recognition for America's sustainable food producers.
-logo: /roles/gff/logo_gff.png
+logo: /images/logos/gff/gff_logo
 hero: /roles/gff/GFA_MarcFiorito_Ceremony-0872.jpg
 hero_credit: "Mark Fiorito"
 ---

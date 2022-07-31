@@ -8,7 +8,10 @@ permalink: /roles
   <a class="role row">
     <div class="col-md-3 col-sm-6 col-xs-12">
       <div class="role__logo">
-        {% picture /roles/regrow/regrow_hero.png %}
+        <picture>
+          <source srcset="/images/logos/regrow/regrow_logo_white.png" media="(prefers-color-scheme: dark)">
+          <img src="/images/logos/regrow/regrow_logo_color.png" alt="Regrow">
+        </picture>
       </div>
     </div>
     <div class="role__info col-md-3 col-sm-6 col-xs-12">
@@ -23,7 +26,10 @@ permalink: /roles
   <a class="role row">
     <div class="col-md-3 col-sm-6 col-xs-12">
       <div class="role__logo">
-        {% picture /roles/ideo/ideo_hero.png %}
+        <picture>
+          <source srcset="/images/logos/ideo/ideo_logo_white.png" media="(prefers-color-scheme: dark)">
+          <img src="/images/logos/ideo/ideo_logo_color.png" alt="Ideo">
+        </picture>
       </div>
     </div>
     <div class="role__info col-md-3 col-sm-6 col-xs-12">
@@ -39,7 +45,12 @@ permalink: /roles
   <a href="{{ post.url }}" class="role row">
     <div class="col-md-3 col-sm-6 col-xs-12">
       <div class="role__logo">
-        {% if post.logo%}{% picture {{ post.logo }} %}{% endif %}
+        {% if post.logo%}
+        <picture>
+          <source srcset="{{ post.logo }}_white.png" media="(prefers-color-scheme: dark)">
+          <img src="{{ post.logo }}_color.png" alt="CIID">
+        </picture>
+        {% endif %}
       </div>
     </div>
     <div class="role__info col-md-3 col-sm-6 col-xs-12">
