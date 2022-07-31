@@ -8,15 +8,30 @@ permalink: /roles
   <a class="role row">
     <div class="col-md-3 col-sm-6 col-xs-12">
       <div class="role__logo">
+        {% picture /roles/regrow/regrow_hero.png %}
+      </div>
+    </div>
+    <div class="role__info col-md-3 col-sm-6 col-xs-12">
+      <p>Sr. Product Designer</p>
+      <p>2022 – Present</p>
+    </div>
+    <div class="role__summary col-md-6">
+      <p>Currently collaborating with a global team of farmers and climate scientists to create a more resilient food system and reverse climate change by accelerating the world's transition to regenerative agriculture.</p>
+    </div>
+  </a>
+
+  <a class="role row">
+    <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="role__logo">
         {% picture /roles/ideo/ideo_hero.png %}
       </div>
     </div>
     <div class="role__info col-md-3 col-sm-6 col-xs-12">
       <p>Interaction Design Lead</p>
-      <p>2021 – Present</p>
+      <p>2021 – 2022</p>
     </div>
     <div class="role__summary col-md-6">
-      <p>Leading tight-knit design teams in partnership with clients to craft innovative human-centered products and services.</p>
+      <p>Led interdisciplinary teams to create positive impact by working with clients to create human-centered products, services, and organizations.</p>
     </div>
   </a>
 
