@@ -34,6 +34,7 @@
 
 .role__info {
   margin-bottom: $s24;
+  padding-right: $s24;
   @include media($tablet) {
     margin-bottom: $s32;
   }
