@@ -32,7 +32,7 @@ permalink: /
 		</ul>
 	</section>
 	<section class="about__bio col-md-6 col-xs-12 first-xs last-md spacing-below-40">
-		<p>Hi, I'm Norris – a multidisplinary designer in California with over 10 years of experience. I create impact through design-driven innovation and deft execution with an eye towards craft and scale. I am dedicated to exploring design's role in reversing climate change and repairing our relationship with the rest of nature.</p>
+		<p>Hi, I'm Norris – a multidisplinary designer in California with over 15 years of experience. I create impact through design-driven innovation and deft execution with an eye towards craft and scale. I am dedicated to exploring design's role in reversing climate change and repairing our relationship with the rest of nature.</p>
 		<p>Currently, I lead the design team at <strong>Regrow</strong> working alongside farmers and climate scientists to accelerate the world's transition to regenerative agriculture. </p>
 		<p>Previously, I led interdisplinary teams at <strong>IDEO</strong>, designed a more human-centered safety net at <strong><a href="{% post_url 2019-11-01-cfa %}">Code for America</a></strong>, and reimagined interactive learning at <strong><a href="{% post_url 2014-04-31-inkling %}">Inkling</a></strong>. I've also partnered with notatable clients such as <strong>Google</strong>, <strong>Meta</strong>, and the <strong>Gates Foundation</strong>.</p>
 		<p>I thrive by collaborating with others to understand the system's perspective, empathize with users, prototype a diversity of approaches, craft beautiful products and services, and package it together into compelling and strategic narratives.</p>
